@@ -1,0 +1,122 @@
+.properties {
+    background-color: #f6f6f6;  
+    text-align: center;
+    &_col {
+        background-color: white;
+        padding: 0;
+        margin-top: 60px;
+        max-width: 364px;
+        width: 100%;
+        margin-bottom: 30px;
+        border: 1px solid #e6e6e6;
+        border-radius: 3px;
+    }
+    &_img {
+        width: 100%;
+    }
+    &_title {
+        font-family: Raleway;
+        font-size: 22px;
+        font-weight: 500;
+        color: #3c3c3c;
+        padding-top: 30px;
+        margin: 0;
+    }
+    &_field {
+        font-family: PlayfairDisplay;
+        font-size: 15px;
+        font-weight: 400;
+        color: #797979;
+        padding-top: 10px;
+        margin: 0;
+    }
+    &_price {
+        font-family: PlayfairDisplay;
+        font-size: 16px;
+        font-weight: 600;
+        color: #e2574c;
+        margin: 0;
+        padding-top: 12px;
+        
+    }
+    ul {
+        list-style: none;
+        margin: 20px 0 0 0;
+        padding: 10px 0;
+    }
+    &_desc {
+        display: flex;
+		justify-content: center;
+        border-top: 1px solid #e6e6e6;
+        font-family: PlayfairDisplay;
+        font-size: 13px;
+        font-weight: 400;
+        color: #797979;
+    }
+    &_item {
+        padding-right: 15px;
+        position: relative;
+        &:after {
+            content: '';
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background-color: #c0c0c0;
+            bottom: 35%;
+            right: 5px;
+        }
+        &:last-child {
+            &:after {
+                content: none;
+            }
+        }
+    }
+    &_button {
+        margin-top: 40px;
+        margin-bottom: 100px;
+        padding: 10px 20px;
+        font-family: Raleway;
+        font-size: 16px;
+        font-weight: 700;
+        color: #ffffff;
+        background-color: #e2574c;
+        border: none;
+    }
+}
+
+.block_title {
+    text-align: center;
+    padding-top: 100px;
+    h3 {
+        font-family: Raleway;
+        font-size: 45px;
+        font-weight: 300;
+        color: #3c3c3c;
+        margin-bottom: 0;
+        position: relative;
+        &:after {
+            content: '';
+            position: absolute;
+            height: 3px;
+            width: 110px;
+            background-color: crimson;
+            bottom: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    p {
+        font-family: PlayfairDisplay;
+        font-size: 16px;
+        font-weight: 400;
+        color: #797979;
+        padding-top: 50px;
+        margin-bottom: 0;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+

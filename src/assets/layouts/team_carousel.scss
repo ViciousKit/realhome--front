@@ -1,0 +1,100 @@
+.team {
+    &_carousel_fluid {  
+        background-color: #f6f6f6;
+    }
+    
+    &_caruosel_slider {
+        height: 545px;
+    }
+    .carousel-item {
+        img {
+            height: 400px;
+            width: 365px !important;
+        }
+        div {
+            margin: 0;
+        }
+    }
+    &_carousel_title {
+        text-align: left;
+        justify-content: left;
+        padding: 0;
+        padding-top: 100px;
+        position: relative;
+        margin-bottom: 15px;
+    
+        &_text {
+            width: 50%;
+            font-family: Raleway;
+            font-size: 45px;
+            font-weight: 300;
+            color: #3c3c3c;
+            &:after {
+                position: absolute;
+                content: ' ';
+                height: 2px;
+                width: 95px;
+                background-color: #e2574c;
+                bottom: -10%;
+                transform: translateX(-230px);
+            }
+        }
+    }
+    &_information {
+        padding: 40px 0 0 0;
+    }
+    &_name {
+        padding-top: 30px;
+        font-family: PlayfairDisplay;
+        font-size: 25px;
+        font-weight: 700;
+        color: #3c3c3c;
+    }
+    &_text {
+        font-family: PlayfairDisplay;
+        font-size: 16px;
+        font-weight: 400;
+        color: #797979;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    &_contacts {
+        display: flex;
+        justify-content: left;
+        li {
+            margin-right: 25px;
+            &:before {
+            
+            }
+        }
+        &_number {
+            font-family: PlayfairDisplay;
+            font-size: 16px;
+            font-weight: 400;
+            color: #3c3c3c;
+        }
+        &_mail {
+            font-family: PlayfairDisplay;
+            font-size: 16px;
+            font-weight: 400;
+            text-decoration: underline;
+            color: #e2574c;
+        }
+    }
+    .change_slide {
+        border: 1px solid gray;
+        border-radius: 50%;
+        width: 15px;
+        height: 15px;
+        &.active {
+            background-color: red;
+            border-color: red;
+        }
+    }
+    .carousel-indicators {
+        top: -45px;
+        right: -160px
+    }
+}

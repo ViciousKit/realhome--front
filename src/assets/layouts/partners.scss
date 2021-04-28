@@ -1,0 +1,18 @@
+.partners {
+    height: 270px;
+    &_row {
+        height: 100%;
+
+    }
+    &_col {
+        margin: 0;
+        padding: 0;
+    }
+    &_title {
+        text-align: left;
+        font-family: Raleway;
+        font-size: 28px;
+        font-weight: 300;
+        color: #3c3c3c;
+    }
+}

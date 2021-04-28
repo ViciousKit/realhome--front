@@ -1,0 +1,12 @@
+body {
+    color: $primary;
+    font-family: 'Playfair Display', serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: auto;
+    &::-webkit-scrollbar {width:0px;}
+}
+p, h1, h2, h3, h4 {
+    margin: 0;
+}
+

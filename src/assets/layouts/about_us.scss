@@ -1,0 +1,40 @@
+.about_us {
+    min-height: 600px;
+    &_row {
+        padding-top: 50px;
+    }
+    &_link {
+        font-family: Raleway;
+        font-size: 14px;
+        font-weight: 700;
+        color: #797979;
+        a {
+            text-decoration: none;
+            font-weight: 400;
+            color: #e2574c;
+        }
+        b {
+            color: #c0c0c0;
+        }
+    }
+    &_title {
+        padding-top: 20px;
+        font-family: Raleway;
+        font-size: 45px;
+        font-weight: 300;
+        color: #3c3c3c;
+        h2 {
+            margin: 0;
+        }
+    }
+    &_text {
+        font-family: PlayfairDisplay;
+        font-size: 16px;
+        font-weight: 400;
+        color: #797979;
+    }
+    &_row_2 {
+        padding-top: 60px;
+    }
+}
+

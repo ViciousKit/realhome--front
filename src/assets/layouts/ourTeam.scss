@@ -1,0 +1,60 @@
+.our_team {
+    &_row_1 {
+        padding-top: 90px;
+    }
+    &_row_2 {
+        padding-top: 60px;
+    }
+    &_title {
+        font-family: Raleway;
+        font-size: 37px;
+        font-weight: 300;
+        color: #242424;
+        h1 {
+            margin: 0;
+        }
+    }
+    &_link {
+        a{
+            text-align: right;
+            font-family: PlayfairDisplay;
+            font-size: 20px;
+            font-weight: 400;
+            text-decoration: underline;
+            color: #e2574c;
+        }
+    }
+    min-height: 680px;
+    img {
+        width: 100%;
+    }
+    &_col {
+        
+    }
+    &_item {
+        border: 1px solid #e6e6e6;
+        border-radius: 3px;
+        min-height: 440px;
+        text-align: center;
+    }
+    &_name {
+        font-family: Raleway;
+        font-size: 20px;
+        font-weight: 500;
+        color: #000000;
+        margin: 0;
+        padding-top: 30px;
+        h1 {
+            
+        }
+    }
+    &_position {
+        font-family: PlayfairDisplay;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0.02em;
+        color: #797979;
+        margin: 0;
+        padding-top: 8px;
+    }
+}

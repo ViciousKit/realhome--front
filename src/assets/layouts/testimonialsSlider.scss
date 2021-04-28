@@ -1,0 +1,51 @@
+.testimonials_slider {
+    position: relative;
+    .carousel-indicators {
+        top: 90%;
+    }
+    .change_slide {
+        border: 1px solid gray;
+        background: none;
+        border-radius: 50%;
+        width: 13px;
+        height: 13px;
+        &.active {
+            background-color: white;
+        }
+    }
+    &_opop {
+        position: relative;
+    }
+    &_title {
+        position: absolute;
+        text-align: center;
+        font-family: Raleway;
+        font-size: 45px;
+        font-weight: 500;
+        color: white;
+        z-index: 20;
+        top: 150px;
+        &:after {
+            position: absolute;
+            content: '';
+            height: 3px;
+            width: 110px;
+            background-color: #e2574c;
+            border-radius: 1.5px;
+            z-index: 999;
+            bottom: -40%;
+            left: 30%;
+        }
+    }
+    h5 {
+        font-family: Raleway;
+        font-size: 24px;
+        font-weight: 400;
+        color: #ffffff;
+        text-align: center;
+        max-width: 60%;
+        position: absolute;
+        left: 20%;
+        top: -240%;
+    }
+}

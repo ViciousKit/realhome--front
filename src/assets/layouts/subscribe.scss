@@ -1,0 +1,43 @@
+.subscribe {
+    &_fluid {
+        background-color: #f3f2f2;
+    }
+    &_row {
+        padding: 60px 0;
+    }
+    &_col_2 {
+        input {
+            width: 60%;
+            height: 58px;
+            border: 2px solid #e6e6e6;
+            border-radius: 3px; 
+            padding-left: 20px;
+            font-family: Raleway;
+            font-size: 18px;
+            font-weight: 500;
+            color: #c2c1c1;
+        }
+        button {
+            height: 58px;
+            padding: 0;
+            width: 30%;
+            font-family: Raleway;
+            font-size: 18px;
+            font-weight: 700;
+            color: #ffffff;
+            background-color: #e2574c;
+            border: none;
+        }
+    }
+    &_col_1 {
+        h1 {
+            font-family: Raleway;
+            font-size: 37px;
+            font-weight: 300;
+            color: #3c3c3c;
+        }
+        b {
+            font-weight: 700;
+        }
+    }
+}

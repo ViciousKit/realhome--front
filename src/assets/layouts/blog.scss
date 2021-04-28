@@ -1,0 +1,84 @@
+.blog {
+    
+
+    &_column_post {
+        width: 67%;
+    }
+    &_column_nav {
+        width: 33%;
+    }
+
+    &_link {
+        padding-top: 70px;
+    }
+    &_post {
+        width: 100%;
+        padding: 60px 50px 0 0;
+        border-right: 1px solid #f3f2f2;
+        border-bottom: 1px solid #f3f2f2;
+
+        &_image {
+            width: 100%;
+        }
+        &_title {
+            font-family: Raleway;
+            font-size: 45px;
+            font-weight: 400;
+            color: #3c3c3c;
+            padding-bottom: 35px;
+        }
+        &_text {
+            font-family: PlayfairDisplay;
+            font-size: 16px;
+            font-weight: 400;
+            color: #797979;
+            padding: 30px 0;
+            margin: 0;
+        }
+        &_button {
+            color: white;
+            background-color: #e2574c;
+            border-radius: 3px;
+            border: none;
+            font-family: Raleway;
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 50px;
+        }
+    }
+
+    &_nav {
+        width: 100%;
+        padding-left: 50px;
+        font-family: Raleway;
+        &_title {
+            font-size: 20px;
+            font-weight: 600;
+            color: #3c3c3c;
+            padding-bottom: 20px;
+            padding-top: 60px;
+            &_recentPost {
+                font-size: 16px;
+                padding-bottom: 12px;
+            }
+        }
+        &_link {
+            font-size: 16px;
+            font-weight: 500;
+            color: #797979;
+            padding-bottom: 14px;
+        }
+        &_postText {
+            font-family: PlayfairDisplay;
+            font-size: 14px;
+            font-weight: 400;
+            color: #797979;
+        }
+        &_postDate {
+            font-family: PlayfairDisplay;
+            font-size: 14px;
+            font-weight: 700;
+            color: #797979;
+        }
+    }
+}
